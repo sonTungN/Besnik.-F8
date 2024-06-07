@@ -393,7 +393,7 @@ a {
   left: 0;
   width: 239px;
   padding: 45px 22px 40px;
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 0 0 12px 12px;
   background-color: #fff;
 }
 
@@ -613,6 +613,11 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 3px;
+  background: #f9f9f9;
+}
+
+.footer .social-link:not(:first-child) {
+  margin-left: 16px;
 }
 
 .footer .social-link:hover {
